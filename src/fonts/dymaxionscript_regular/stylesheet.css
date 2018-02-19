@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'dymaxionscriptregular';
+    src: url('../fonts/dymaxionscript_regular/DymaxionScript-webfont.eot');
+    src: url('../fonts/dymaxionscript_regular/DymaxionScript-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dymaxionscript_regular/DymaxionScript-webfont.woff2') format('woff2'),
+         url('../fonts/dymaxionscript_regular/DymaxionScript-webfont.woff') format('woff'),
+         url('../fonts/dymaxionscript_regular/DymaxionScript-webfont.ttf') format('truetype'),
+         url('../fonts/dymaxionscript_regular/DymaxionScript-webfont.svg#dymaxionscriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 52px 30px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    @include flex-row-center;
+    z-index: 12;
+    
+}
+.menu {
+    @include flex-row-center;
+}
+.main__title {
+    letter-spacing: 1.5px;
+    margin: 0 0 0 13px;
+    padding: 0;
+    color: #fff;
+    font-family: 'bookmarkregular', sans-serif;
+    font-size: 3.188rem;
+    font-weight: 400;
+    position: relative;
+    z-index: 99;
+    word-spacing: 0;
+
+    span {
+        
+        margin: 0;
+        padding: 0;
+        font-size: 6.313rem;
+        line-height: 16px;
+    }
+
+}

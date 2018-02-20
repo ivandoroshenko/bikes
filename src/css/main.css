@@ -55,6 +55,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   z-index: 12; }
+  @media screen and (max-width: 361px) {
+    .header {
+      padding: 10px 15px; } }
 
 .menu {
   display: -webkit-box;
@@ -175,6 +178,9 @@ body {
   z-index: 3; }
   .shop__descr--left {
     margin-top: 70px; }
+  @media screen and (max-width: 361px) {
+    .shop__descr {
+      margin-top: 50px; } }
 
 .shop__title {
   color: #fff;
@@ -186,6 +192,10 @@ body {
   .shop__title--left {
     font-family: "high_tideregular";
     letter-spacing: 1px; }
+    @media screen and (max-width: 361px) {
+      .shop__title--left {
+        font-size: 3.063rem;
+        line-height: 3.063rem; } }
   .shop__title--right {
     font-family: "dymaxionscriptregular"; }
 
@@ -197,6 +207,12 @@ body {
   font-size: 3.375rem;
   font-weight: 400;
   line-height: 3.375rem; }
+  @media screen and (max-width: 361px) {
+    .shop__subtitle {
+      font-family: 2.5rem;
+      line-height: 2rem;
+      white-space: nowrap;
+      margin-bottom: 25px; } }
 
 .btn {
   background: rgba(255, 255, 255, 0.12);
@@ -209,6 +225,11 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2.438rem;
   font-weight: 400; }
+  @media screen and (max-width: 361px) {
+    .btn {
+      white-space: nowrap;
+      padding: 19px 26px;
+      font-size: 1.438rem; } }
 
 .footer {
   background-color: #2f2f2f;

@@ -1,0 +1,27 @@
+.social__list {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    max-width: 200px;
+
+      @media screen and (min-width: 750px) {
+            max-width: 280px;
+            
+        }
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.social__item{ 
+     list-style-type: none;
+}
+
+.social__link > i {
+    font-size: 2.313rem;
+    color: #c3c3c3;
+    
+      @media screen and (min-width: 750px) {
+            font-size: 3.25rem;
+            
+        }
+}

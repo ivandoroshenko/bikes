@@ -1,8 +1,10 @@
 @import "src/libs/normalize/normalize"; //импорт font-normalise
-@import "src/libs/fontawesome/font-awesome"; //шрифты
+@import "src/libs/fontawesome/font-awesome.css";
+@import "src/libs/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css "; //шрифты
 @import "src/fonts/hightide-regular/stylesheet";
 @import "src/fonts/bookmark/stylesheet";
 @import "src/fonts/dymaxionscript_regular/stylesheet";
+@import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,300i,400,600');
 @import "src/libs/slick-carousel/slick/slick.scss";
 @import "src/libs/slick-carousel/slick/slick-theme.scss";

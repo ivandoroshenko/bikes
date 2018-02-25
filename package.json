@@ -4,6 +4,7 @@
   "description": "my exam gulp project",
   "main": "gulpfile.js",
   "dependencies": {
+    "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.23.1",
     "del": "^3.0.0",
     "gulp-autoprefixer": "^4.1.0",

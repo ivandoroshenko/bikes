@@ -43,9 +43,11 @@
 }
 
 .shop__column--right {
+    margin-top: -4px;
   &:after {
 
             content: '';
+            display: block;
             position: absolute;
             top: 0;
             left: 0;
@@ -179,14 +181,12 @@
     // inner text
     color: $base-color;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2.438rem;
+    padding: 14px 26px;
+    font-size: 1.0rem;
     font-weight: 400;
+    
 
-
-     @media screen and (min-width: 320px) {
-        padding: 14px 26px;
-        font-size: 1.0rem;
-    }
+   
 
     @media screen and (min-width: 360px) {
         white-space: nowrap;

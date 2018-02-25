@@ -29,6 +29,26 @@ body {
   max-width: 1200px;
   padding: 0 15px; }
 
+.btn {
+  background: rgba(255, 255, 255, 0.12);
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  margin: 0;
+  padding: 14px 26px;
+  border: none;
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.0rem;
+  font-weight: 400; }
+  @media screen and (min-width: 360px) {
+    .btn {
+      white-space: nowrap;
+      font-size: 1.5rem; } }
+  @media screen and (min-width: 750px) {
+    .btn {
+      font-size: 2.438rem;
+      padding: 35px 55px; } }
+
 .social__list {
   padding: 0;
   margin: 0 auto;
@@ -156,6 +176,13 @@ body {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column; }
+  @media screen and (min-width: 750px) {
+    .shop {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 .shop__img {
   display: block;
@@ -290,27 +317,6 @@ body {
       font-size: 3.375rem;
       line-height: 3.711rem;
       padding-bottom: 40px; } }
-
-.btn {
-  background: rgba(255, 255, 255, 0.12);
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
-  margin: 0;
-  padding: 35px 55px;
-  border: none;
-  color: #fff;
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding: 14px 26px;
-  font-size: 1.0rem;
-  font-weight: 400; }
-  @media screen and (min-width: 360px) {
-    .btn {
-      white-space: nowrap;
-      font-size: 1.5rem; } }
-  @media screen and (min-width: 750px) {
-    .btn {
-      font-size: 2.438rem;
-      padding: 35px 55px; } }
 
 .footer {
   background-color: #595f6f;
@@ -464,15 +470,18 @@ body {
         margin-bottom: 40px; } }
   .subscribe__email {
     background-color: rgba(129, 129, 129, 0.1);
-    width: 100%;
+    min-width: 280px;
     color: #fff;
     font-family: "Open Sans", sans-serif;
     font-style: italic;
     font-weight: 300;
     font-size: 1.2rem;
-    margin: 0 0 20px; }
+    margin: 0 0 20px;
+    text-align: center;
+    padding: 20px; }
     @media screen and (min-width: 750px) {
       .subscribe__email {
+        min-width: 538px;
         font-size: 1.875rem;
         margin: 0 0 87px;
-        padding: 39px 98px 45px 92px; } }
+        padding: 39px 20px; } }

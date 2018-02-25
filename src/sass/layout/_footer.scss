@@ -184,18 +184,21 @@ font-family: 'Open Sans Condensed', sans-serif;
     &__email {
         
         background-color: rgba(129, 129, 129, 0.1);
-        width: 100%;
+        min-width: 280px;
         color: #fff;
         font-family: $base-font;
         font-style: italic;
         font-weight: 300;
         font-size: 1.2rem;
-        margin: 0 0 20px;       
+        margin: 0 0 20px;
+        text-align: center;
+        padding: 20px;       
         
          @media screen and (min-width: 750px) {
+            min-width: 538px;
             font-size: 1.875rem;
             margin: 0 0 87px;
-            padding: 39px 98px 45px 92px;
+            padding: 39px 20px;
         }
         
     }

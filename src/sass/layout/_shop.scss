@@ -4,6 +4,10 @@
     display: flex;
     flex-direction: column;
     
+
+      @media screen and (min-width: 750px) {
+             flex-direction: row;
+            }
     
     
 }
@@ -171,34 +175,3 @@
            
 }
 
-.btn {
-    background: rgba(255, 255, 255, 0.12);
-    border-radius: 10px;
-    margin: 0;
-    padding: 35px 55px;
-    border: none;
-    
-    // inner text
-    color: $base-color;
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding: 14px 26px;
-    font-size: 1.0rem;
-    font-weight: 400;
-    
-
-   
-
-    @media screen and (min-width: 360px) {
-        white-space: nowrap;
-        font-size: 1.5rem;
-
-    }
-
-    @media screen and (min-width: 750px) {
-        font-size: 2.438rem;
-        padding: 35px 55px;
-    }
-
-   
-
-}
